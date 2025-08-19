@@ -15,18 +15,6 @@ Modelos cosmológicos modernos são descritos por sistemas de equações diferen
 -   **Validação Rigorosa:** Comparação da acurácia do modelo treinado contra um solver numérico de alta precisão da biblioteca SciPy.
 -   **Reproducibilidade:** O código está estruturado para permitir a fácil reprodução dos resultados apresentados.
 
-## Estrutura do Repositório
-
-```
-├── README.md                # Documentação principal
-├── requirements.txt         # Dependências do projeto
-├── cosmo_pinn/              # Pacote com o código fonte
-│   ├── model.py             # Definição da arquitetura da rede neural
-│   └── solver.py            # Lógica do solver PINN (reparametrização e perda)
-├── train.py                 # Script para treinar os modelos
-└── evaluate_error.py        # Script para validar o modelo e gerar o mapa de erro
-```
-
 ## Configuração do Ambiente
 
 1.  **Clone o repositório:**
@@ -66,7 +54,7 @@ O pipeline é executado em duas etapas principais:
 
 O treinamento do modelo com ponderação de perdas foi bem-sucedido. A figura abaixo mostra o erro percentual da solução da PINN, validando a alta precisão do método em uma vasta região do espaço de parâmetros.
 
-![Mapa de Erro da PINN](/figures/error.pdf)
+![Mapa de Erro da PINN](error.pdf)
 *Mapa do erro percentual da solução da PINN para $H(z)/H_0^{\Lambda}$ em comparação com a solução numérica.*
 
 ## Agradecimentos
