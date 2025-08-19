@@ -31,7 +31,7 @@ Modelos cosmológicos modernos são descritos por sistemas de equações diferen
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/Diismas19/cosmo-pinn.git](https://github.com/Diismas19/cosmo-pinn.git)
+    git clone https://github.com/Diismas19/cosmo-pinn
     cd cosmo-pinn
     ```
 
