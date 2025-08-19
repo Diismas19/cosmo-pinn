@@ -54,7 +54,7 @@ O pipeline é executado em duas etapas principais:
 
 O treinamento do modelo com ponderação de perdas foi bem-sucedido. A figura abaixo mostra o erro percentual da solução da PINN, validando a alta precisão do método em uma vasta região do espaço de parâmetros.
 
-![Mapa de Erro da PINN](error.pdf)
+![Mapa de Erro da PINN](error.png)
 *Mapa do erro percentual da solução da PINN para $H(z)/H_0^{\Lambda}$ em comparação com a solução numérica.*
 
 ## Agradecimentos
